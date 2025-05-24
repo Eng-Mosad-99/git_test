@@ -34,7 +34,10 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.red,
-          title: Text('Git Test',),
+          title: Text(
+            'Git Learning',
+            style: TextStyle(fontSize: 24, fontWeight: FontWeight.w500),
+          ),
           centerTitle: true,
         ),
       ),
